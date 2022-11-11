@@ -460,25 +460,33 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Waliul\\.nuget\\packages\\": {}
+    "C:\\Users\\waliu\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\Offline Packages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Work_Place\\Home\\WebAPI\\Catalog\\Catalog.csproj",
+      "projectUniqueName": "D:\\Work\\Home\\Projects\\CatalogAPI\\Catalog.csproj",
       "projectName": "Catalog",
-      "projectPath": "E:\\Work_Place\\Home\\WebAPI\\Catalog\\Catalog.csproj",
-      "packagesPath": "C:\\Users\\Waliul\\.nuget\\packages\\",
-      "outputPath": "E:\\Work_Place\\Home\\WebAPI\\Catalog\\obj\\",
+      "projectPath": "D:\\Work\\Home\\Projects\\CatalogAPI\\Catalog.csproj",
+      "packagesPath": "C:\\Users\\waliu\\.nuget\\packages\\",
+      "outputPath": "D:\\Work\\Home\\Projects\\CatalogAPI\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\Offline Packages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Waliul\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\waliu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 18.1.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.2.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\DevExpress 18.1\\Components\\System\\Components\\Packages": {},
+        "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\System\\Components\\Packages": {},
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "http://nuget.grapecity.com/nuget": {},
         "https://www.nuget.org/api/v2/": {}
