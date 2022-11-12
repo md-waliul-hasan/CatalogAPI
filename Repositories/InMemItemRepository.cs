@@ -22,11 +22,31 @@ namespace CatalogAPI.Repositories
         {
             return items.Where(i => i.Id == id).FirstOrDefault();
         }
+
+        public void CreateItem(Item item)
+        {
+            items.Add(item);
+        }
+
+        public void UpdateItem(Item item)
+        {
+            var index = items.FindIndex(i => i.Id == item.Id);
+            items[index] = item;
+        }
+
+        public void DeleteItem(Guid id)
+        {
+            var index = items.FindIndex(i => i.Id == id);
+            items.RemoveAt(index);
+        }
     }
 
     public interface IItemsRepository
     {
         IEnumerable<Item> GetItems();
         Item GetItem(Guid id);
+        void CreateItem(Item item);
+        void UpdateItem(Item item);
+        void DeleteItem(Guid id);
     }
 }
